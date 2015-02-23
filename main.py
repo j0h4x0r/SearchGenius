@@ -109,7 +109,7 @@ def adjustQuery(queryStr, data):
 				df=df+1
 		tfidf[word]=(float(tf[i][word])/sum(tf[i].itervalues()))*math.log((float(N)/df),2)
 	return rocchio(tfidf,queryStr)
-#	
+#to be added...
 def rocchio(tfidf,queryStr):
 
 	print 'Augmenting by: [' ,queryStr,']'
