@@ -10,6 +10,8 @@ rootURL = 'https://api.datamarket.azure.com/Bing/Search/v1/Web'
 accKey = 'gQ+gama5GAfLoQmix8AKEn5Nop24Tlu34tRapNPOImI'
 # iteration times
 times = 1
+# top N documents we should do calculation on
+N = 10
 
 def main():
 	queryStr = raw_input('Please input the query word(s), separated by space: ')
@@ -30,6 +32,7 @@ def main():
 		times += 1
 		data, precision = startSearch(queryStr)
 	print 'Target precision reached. Done.'
+
 #calculate precison each iteration:
 def calcPrecison(data):
 	rel = 0
@@ -37,12 +40,14 @@ def calcPrecison(data):
 		if item['rel']:
 			rel += 1
 	return float(rel) / len(data)
+
 #pre-process text: str_source is the text needed to be processed; replace all words to char
 def str_replace(str_source,char,*words):
     str_temp=str_source    
     for word in words:
         str_temp=str_temp.replace(word,char)
     return str_temp	
+
 def startSearch(queryStr):
 	print '========================'
 	print 'Round', times
@@ -51,13 +56,13 @@ def startSearch(queryStr):
 	uri = rootURL + "?Query=" + urllib.quote_plus("'" + queryStr + "'")
 	result = requests.get(uri, auth=(accKey, accKey))
 	# Parse result
-	data = [{} for i in range(10)]
+	data = [{} for i in range(N)]
 	# for test only
 	tree = etree.fromstring(result.text.encode('ascii', 'replace'))
 	#tree = etree.fromstring(result.text)
 	metas = tree.findall('.//m:properties', tree.nsmap)
 	#set data dict values
-	for i in range(10):
+	for i in range(N):
 		title = metas[i].find('d:Title', tree.nsmap).text
 		description = metas[i].find('d:Description', tree.nsmap).text
 		url = metas[i].find('d:Url', tree.nsmap).text
@@ -80,6 +85,7 @@ def startSearch(queryStr):
 	print 'Query:', queryStr
 	print 'Precision:', precision
 	return data, precision
+
 # Adjust query - key part
 def adjustQuery(queryStr, data):
 	### start calculating TF-IDF scores
@@ -88,7 +94,6 @@ def adjustQuery(queryStr, data):
 	all_doc=[]
 	all_word=[]
 	tfidf={}
-	N=len(data)
 	print 'Indexing results ....'
 	for i in xrange(N):
 		#tokenize each description, more pre-processing measure to be added...
@@ -109,9 +114,11 @@ def adjustQuery(queryStr, data):
 				df=df+1
 		tfidf[word]=(float(tf[i][word])/sum(tf[i].itervalues()))*math.log((float(N)/df),2)
 	return rocchio(tfidf,queryStr)
+
 #to be added...
 def rocchio(tfidf,queryStr):
 
 	print 'Augmenting by: [' ,queryStr,']'
 	return queryStr
+
 if __name__ == '__main__': main()
