@@ -1,0 +1,553 @@
+Please input the query word(s), separated by space: musk
+Please input the target precision: 0.9
+Please input the Bing account key: gQ+gama5GAfLoQmix8AKEn5Nop24Tlu34tRapNPOImI
+========================
+Round 1
+Query: musk
+========================
+ 
+Result 1
+[
+ URL: http://en.wikipedia.org/wiki/Musk
+ Ttile: Musk - Wikipedia, the free encyclopedia
+ Summary: Musk is a class of aromatic substances commonly used as base notes in perfumery. They include glandular secretions from animals such as the musk deer, numerous plants ...
+]
+Relevant (Y/N)?N
+Result 2
+[
+ URL: http://dictionary.reference.com/browse/musk
+ Ttile: Musk | Define Musk at Dictionary.com
+ Summary: The freezer case was full of curious meats: a snowy hunk of a fin whale's throat, a slab of musk ox. The resulting molecule is similar in shape and smell to the musk ...
+]
+
+Relevant (Y/N)?n
+Result 3
+[
+ URL: http://en.m.wikipedia.org/wiki/Elon_musk
+ Ttile: Elon Musk - Wikipedia, the free encyclopedia
+ Summary: Musk was born June 28, 1971, in Pretoria, Gauteng, South Africa to a Canadian-English mother and prominent model Maye Musk and a South African-born British father and ...
+]
+
+Relevant (Y/N)?y
+Result 4
+[
+ URL: http://www.fragrantica.com/notes/Musk-4.html
+ Ttile: Musk perfume ingredient, Musk fragrance and essential oils ...
+ Summary: Musk is a whole class of fragrant substances used as base notes in perfumery. This wonderful animalistic note creates a groundwork on which the rest of the aromatic ...
+]
+
+Relevant (Y/N)?n
+Result 5
+[
+ URL: http://www.merriam-webster.com/dictionary/musk
+ Ttile: Musk - Definition and More from the Free Merriam-Webster ...
+ Summary: Full Definition of MUSK 1 a : a substance with a penetrating persistent odor obtained from a sac beneath the abdominal skin of the male musk deer and used as a ...
+]
+Relevant (Y/N)?n
+Result 6
+[
+ URL: http://www.thefreedictionary.com/musk
+ Ttile: musk - definition of musk by The Free Dictionary
+ Summary: musk (msk) n. 1. a. A greasy secretion with a powerful odor, produced in a glandular sac in the abdomen of a male musk deer and used in traditional medicines and ...
+]
+
+Relevant (Y/N)?n
+Result 7
+[
+ URL: http://www.ebay.com/sch/i.html?_nkw=musk+oil
+ Ttile: musk oil | eBay
+ Summary: Find great deals on eBay for musk oil coty wild musk oil. Shop with confidence.
+]
+
+Relevant (Y/N)?n
+Result 8
+[
+ URL: http://www.amazon.com/s?ie=UTF8&page=1&rh=n%3A3760911%2Ck%3Aperfume%20musk
+ Ttile: Amazon.com: perfume musk: Beauty
+ Summary: ASDM Beverly Hills Egyptian Musk, A Rich, Egyptian Musk With Precious Wood Blends and Floral Top Note., 0.5 Ounce. $25.00 $24.95 ;
+]
+
+Relevant (Y/N)?n
+Result 9
+[
+ URL: http://www.cooperlabs.com/Musk/
+ Ttile: The Original Musk Oil - 1-800-645-5048 - Cooperlabs Skin ...
+ Summary: The Original Musk Oil. Its ability to excite has been spoken of for centuries. You may not even be aware of its fragrance, but your own body chemistry is releasing ...
+]
+
+Relevant (Y/N)?n
+Result 10
+[
+ URL: http://www.genecards.org/cgi-bin/carddisp.pl?gene=MUSK
+ Ttile: MUSK Gene - GeneCards | MUSK Protein | MUSK Antibody
+ Summary: Complete information for MUSK gene (protein-coding), muscle, skeletal, receptor tyrosine kinase, including: function, proteins, disorders, pathways, orthologs, and ...
+]
+
+Relevant (Y/N)?n
+
+========================
+Feedback Summary
+Query: musk
+Precision: 0.1
+Still below than the target precision of 0.9
+========================
+Round 2
+Query: musk south model
+========================
+Result 1
+[
+ URL: http://en.wikipedia.org/wiki/Elon_Musk
+ Ttile: Elon Musk - Wikipedia, the free encyclopedia
+ Summary: Early life . Musk was born June 28, 1971, in Pretoria, Gauteng, South Africa to a Canadian-English mother and prominent model Maye Musk and a South African ...
+]
+
+Relevant (Y/N)?y
+Result 2
+[
+ URL: http://www.forbes.com/profile/elon-musk/
+ Ttile: Elon Musk - Forbes - Information for the World's Business ...
+ Summary: Elon Musk is revolutionizing two industries at once, disrupting traditional automakers with his electric car maker Tesla and shaking up spacecraft with SpaceX.
+]
+
+Relevant (Y/N)?y
+Result 3
+[
+ URL: http://www.latimes.com/business/autos/la-fi-hy-tesla-factory-20150215-story.html
+ Ttile: Tesla factory racing to retool for new models - LA Times
+ Summary: Tesla is spending what Chief Executive Elon Musk called staggering amounts of money on gearing up for mass production. Above, robots assemble Model S ...
+]
+
+Relevant (Y/N)?y
+Result 4
+[
+ URL: http://www.teslamotors.com/blog/model-s-fire
+ Ttile: Model S Fire | Tesla Motors
+ Summary: Earlier this week, a Model S traveling at highway speed struck a large metal object, causing significant damage to the vehicle. A curved section that fell off a semi ...
+]
+
+Relevant (Y/N)?y
+Result 5
+[
+ URL: http://money.cnn.com/2015/02/12/investing/tesla-apple-elon-musk/index.html
+ Ttile: Elon Musk's 'insane' call: Tesla is worth $700 billion ...
+ Summary: Tesla CEO Elon Musk isn't worried about the company's surprise loss. He thinks the company could be worth as much as Apple in 10 years. But is that realistic?
+]
+
+Relevant (Y/N)?y
+Result 6
+[
+ URL: http://jalopnik.com/tesla-model-s-p85d-is-this-elon-musks-d-1641866673
+ Ttile: Tesla Model S P85D: Is This Elon Musk's "D"?
+ Summary: Elon Musk teased us with his "D" last night, and now we've got our first glimpse of what could be the Tesla Model S P85D.
+]
+Relevant (Y/N)?y
+Result 7
+[
+ URL: http://www.wired.com/2012/09/tesla-model-s-2/
+ Ttile: Review: Tesla Model S - WIRED
+ Summary: Tesla loaned us a Model S for four days. But it wasn't just any specimen off the lot -- it was Tesla co-founder and CEO Elon Musk's personal car.
+]
+
+Relevant (Y/N)?y
+Result 8
+[
+ URL: http://www.autoblog.com/2015/02/13/elon-musk-secret-weapon-increase-demand-2014-earnings-call/
+ Ttile: Elon Musk has a secret weapon to increase Model S demand
+ Summary: Elon Musk has a secret weapon to increase Model S demand And Other Insights From Tesla's Fourth Quarter Financial Call
+]
+
+Relevant (Y/N)?y
+Result 9
+[
+ URL: http://www.autoblog.com/2015/02/11/elon-musk-is-not-happy-with-just-150-model-s-sales-in-china-in-j/
+ Ttile: Elon Musk is NOT happy with just 150 Model S sales in ...
+ Summary: Elon Musk is NOT happy with just 150 Model S sales in China in January Firings Could Be On The Horizon. Jonathon Ramsey.
+]
+
+Relevant (Y/N)?y
+Result 10
+[
+ URL: http://www.washingtonpost.com/blogs/the-switch/wp/2015/02/25/meet-the-fast-charging-affordable-future-car-that-elon-musk-hates/
+ Ttile: Meet the fast-charging, affordable future car that ...
+ Summary: Toyota this week officially rolled out what it's betting will mark "a turning point" in automotive history  a sleek, affordable, eco-friendly "future" car that can ...
+]
+
+Relevant (Y/N)?y
+========================
+Feedback Summary
+Query: musk south model
+Precision: 1.0
+Target precision reached. Done.
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Please input the query word(s), separated by space: gates
+Please input the target precision: 0.9
+Please input the Bing account key: gQ+gama5GAfLoQmix8AKEn5Nop24Tlu34tRapNPOImI
+================================================
+Round 1
+Query: gates
+========================
+ 
+Result 1
+[
+ URL: http://www.gates.com/
+ Ttile: Gates Corporation
+ Summary: Gates Corporation is Powering Progress in the Oil & Gas, Energy, Mining, Marine, Agriculture, Transportation and Automotive Industries.
+]
+
+Relevant (Y/N)?n
+Result 2
+[
+ URL: http://www.amazon.com/s?ie=UTF8&page=1&rh=i%3Aaps%2Ck%3Agates
+ Ttile: Amazon.com: gates
+ Summary: Product Description... The position and lock gate helps parents keep their children safe from ...
+]
+
+Relevant (Y/N)?n
+Result 3
+[
+ URL: http://www.gatecrafters.com/design_your_gates.aspx
+ Ttile: Driveway Gates | Automatic Gates | Electric Gates
+ Summary: Driveway Gates - Automatic Gates The high-quality driveway gates from GateCrafters.com come in a wide variety of options to ...
+]
+
+Relevant (Y/N)?n
+Result 4
+[
+ URL: http://www.gates.com/industries/automotive
+ Ttile: Gates Automotive Aftermarket Solutions | Gates Corporation
+ Summary: Gates offers a complete line of original equipment (OE) automotive aftermarket products and solutions, including automotive hose, belts, & accessories.
+]
+
+Relevant (Y/N)?n
+Result 5
+[
+ URL: http://www.gatesbbq.com/
+ Ttile: Gates Bar B.Q.
+ Summary: With the tantalizing hickory barbecue smell drawing the customer through the ranch-style doors, he is immediately greeted.
+]
+
+Relevant (Y/N)?n
+Result 6
+[
+ URL: https://www.facebook.com/gatesnj
+ Ttile: gates | Facebook
+ Summary: Kevin Dye from Gates performs an acoustic version of the very first song Gates wrote together. He also discusses how he started playing music, ...
+]
+
+Relevant (Y/N)?n
+Result 7
+[
+ URL: http://gateshousings.com/
+ Ttile: Gates Underwater Products | 'Bulletproof' Housings
+ Summary: Zsolt Ssdi demonstrates how to produce incredible underwater motion images with the Gates AX100 rig. His Demo Reel can be viewed in 4K. www.saser.hu...
+]
+
+Relevant (Y/N)?n
+Result 8
+[
+ URL: http://navigates.gates.com/
+ Ttile: NaviGates - Gates Corporation
+ Summary: Gates high quality belt & hose solutions support your energy, exploration, extraction, infrastructure, agriculture & transportation needs.
+]
+
+Relevant (Y/N)?n
+Result 9
+[
+ URL: http://www.toysrus.com/family/index.jsp?categoryId=2256222
+ Ttile: Baby Gates - Babies"R"Us
+ Summary: Safe & durable baby gates will keep your baby safe. Choose from a large assortment of baby gates including extra wide gates to suit your needs. Shop today.
+]
+
+Relevant (Y/N)?n
+Result 10
+[
+ URL: http://en.wikipedia.org/wiki/Bill_Gates
+ Ttile: Bill Gates - Wikipedia, the free encyclopedia
+ Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor. Gates ...
+]
+
+Relevant (Y/N)?y
+========================
+Feedback Summary
+Query: gates
+Precision: 0.1
+Still below than the target precision of 0.9
+========================
+Round 2
+Query: gates william iii
+========================
+Result 1
+[
+ URL: http://en.wikipedia.org/wiki/Bill_Gates
+ Ttile: Bill Gates - Wikipedia, the free encyclopedia
+ Summary: William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, philanthropist, investor, computer programmer, and inventor.
+]
+
+Relevant (Y/N)?y
+Result 2
+[
+ URL: http://www.forbes.com/lists/2010/10/billionaires-2010_William-Gates-III_BH69.html
+ Ttile: #2 William Gates III - Forbes.com - Information for the ...
+ Summary: The World's Billionaires #2 William Gates III 03.10.10, 06:00 PM EST Software visionary is now the world's second-richest man.
+]
+
+Relevant (Y/N)?y
+Result 3
+[
+ URL: http://www.biography.com/people/bill-gates-9307520
+ Ttile: Bill Gates - Biography - - Biography.com
+ Summary: Bill Gates was born William Henry Gates III on October 28, 1955, in Seattle, Washington. Gates began to show an interest in computer programming at the age of 13 at ...
+]
+
+Relevant (Y/N)?y
+Result 4
+[
+ URL: http://www.forbes.com/lists/2008/10/billionaires08_William-Gates-III_BH69.html
+ Ttile: #3 William Gates III - Forbes.com - Information for the ...
+ Summary: William Gates III ranks 3 on The World's Billionaires 2008
+]
+
+Relevant (Y/N)?y
+Result 5
+[
+ URL: http://www.bloomberg.com/research/stocks/people/person.asp?personId=181600&ticker=MSFT
+ Ttile: William Henry Gates III: Executive Profile & Biography ...
+ Summary: Background* Mr. William Henry Gates, III, also known as Bill, co-founded Microsoft Corporation in 1975 and has been its Technology Advisor since February 4, 2014.
+]
+
+Relevant (Y/N)?y
+Result 6
+[
+ URL: http://www.insiderinsights.com/insider/902012/gates-william-h-iii
+ Ttile: GATES WILLIAM H III: Form 4 Insider Trading History ...
+ Summary: Free, legal insider trading data for GATES WILLIAM H III, a Director of MICROSOFT CORP (MSFT)
+]
+
+Relevant (Y/N)?y
+Result 7
+[
+ URL: http://www.amazon.com/GATES-WILLIAM-HENRY-III-Encyclopedia/dp/B0024CDVJE
+ Ttile: GATES, WILLIAM HENRY III: An entry from Gale's Gale ...
+ Summary: William "Bill" Henry Gates III (1955) started his first company at age 14; he later dropped out of college to launch Microsoft Corporation, which was to become the ...
+]
+
+Relevant (Y/N)?y
+Result 8
+[
+ URL: http://www.learningtogive.org/papers/paper100.html
+ Ttile: Gates, William H., III (Bill Gates) (Informational Paper)
+ Summary: William Henry Gates III and his foundation's focus on global health and population control programs, increased library technology, minority scholarships, and ...
+]
+
+Relevant (Y/N)?y
+Result 9
+[
+ URL: https://www.linkedin.com/in/williamhgates
+ Ttile: Bill Gates | LinkedIn
+ Summary: View Bill Gates's professional profile on LinkedIn. LinkedIn is the world's largest business network, helping professionals like Bill Gates discover inside ...
+]
+
+Relevant (Y/N)?y
+Result 10
+[
+ URL: http://williamhenrygatesiii.com/bio.htm
+ Ttile: William Henry Gates III Bio - WilliamHenryGatesIII.com
+ Summary: Bill Gates was born William Henry Gates III October 28, 1955 to William Henry Gates, Jr. and Mary Gates at Seattle ...
+]
+
+Relevant (Y/N)?y
+========================
+Feedback Summary
+Query: gates william iii
+Precision: 1.0
+Target precision reached. Done.
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Please input the query word(s), separated by space: columbia
+Please input the target precision: 0.9
+Please input the Bing account key: gQ+gama5GAfLoQmix8AKEn5Nop24Tlu34tRapNPOImI
+================================================
+Round 1
+Query: columbia
+========================
+
+Result 1
+[
+ URL: http://www.columbia.com/
+ Ttile: Shop Direct for Jackets, Pants, Shirts & Shoes | Columbia ...
+ Summary: Shop direct from Columbia Sportswear. Buy Columbia jackets, pants, shirts, fleece, shoes, boots & sweaters. Visit our blog, watch videos & meet our athletes.
+]
+
+Relevant (Y/N)?Result n
+[
+ URL: http://www.columbia.edu/
+ Ttile: Columbia University in the City of New York
+ Summary: Founded in 1754 as King's College by royal charter, it is the oldest institution of higher learning in the State of New York. Located in New York City and a member of ...
+]
+
+Relevant (Y/N)?y
+Result 3
+[
+ URL: http://en.wikipedia.org/wiki/Columbia
+ Ttile: Columbia - Wikipedia, the free encyclopedia
+ Summary: Columbia may refer to: Contents 1 Places 1.1 In North America 1.2 Elsewhere 1.3 In fiction 2 Companies 2.1 Music and entertainment 2.2 Other 3 Music 4 People 5 ...
+]
+
+Relevant (Y/N)?n
+Result 4
+[
+ URL: http://en.wikipedia.org/wiki/Colombia
+ Ttile: Colombia - Wikipedia, the free encyclopedia
+ Summary: Colombia, officially the Republic of Colombia, is a country situated in the northwest of South America, bordered to the northwest by Panama ; to the east by Venezuela ...
+]
+
+Relevant (Y/N)?n
+Result 5
+[
+ URL: http://columbiasc.net/
+ Ttile: :: Welcome to the City of Columbia ::
+ Summary: The Columbia City Hall, also known as Old United States Court House and Post Office, was built in 1870.It was listed on the National Register of Historic Places in 1973.
+]
+
+Relevant (Y/N)?n
+Result 6
+[
+ URL: http://www.gocolumbiamo.com/
+ Ttile: City of Columbia, Missouri's Official Government Web Site
+ Summary: The City of Columbia Missouri's official web site. Perform business transactions, view services, department information, upcoming meetings and events.
+]
+
+Relevant (Y/N)?n
+Result 7
+[
+ URL: http://www.college.columbia.edu/
+ Ttile: Columbia College | Columbia College
+ Summary: Columbia College is pleased to share the Columbia College Annual Report 20132014, which celebrates our students and faculty members achievements, thanks our ...
+]
+
+Relevant (Y/N)?y
+Result 8
+[
+ URL: http://www.parks.ca.gov/?page_id=552
+ Ttile: Columbia SHP - California State Parks
+ Summary: Location - Directions. Columbia State Historic Park is three miles north of Sonora, off Highway 49. The parks address is 11255 Jackson Street Columbia CA, 95310.
+]
+
+Relevant (Y/N)?n
+Result 9
+[
+ URL: http://www.colum.edu/
+ Ttile: Columbia College Chicago
+ Summary: When you attend Columbia College Chicago, your home is one of the most active, vibrant, forward-thinking cities in the world.
+]
+
+Relevant (Y/N)?y
+Result 10
+[
+ URL: http://www.columbia.com/mens/
+ Ttile: Men's Outerwear - Hiking Clothing & Accessories | Columbia ...
+ Summary: Shop online through the official Columbia Sportswear website. Find men's jackets, shoes, mens boots, pants, fleece sweaters and shirts. Columbia Sportswear
+]
+
+Relevant (Y/N)?n
+========================
+Feedback Summary
+Query: columbia
+Precision: 0.3
+Still below than the target precision of 0.9
+========================
+Round 2
+Query: columbia college york
+========================
+
+Result 1
+[
+ URL: http://www.columbia.edu/
+ Ttile: Columbia University in the City of New York
+ Summary: Founded in 1754 as King's College by royal charter, it is the oldest institution of higher learning in the State of New York. Located in New York City and a member of ...
+]
+
+Relevant (Y/N)?y
+Result 2
+[
+ URL: http://www.college.columbia.edu/
+ Ttile: Columbia College | Columbia College
+ Summary: Columbia College is pleased to share the Columbia College Annual Report 20132014, which celebrates our students and faculty members achievements, thanks our ...
+]
+
+Relevant (Y/N)?y
+Result 3
+[
+ URL: http://www.columbia.edu/content/admissions.html
+ Ttile: Admissions | Columbia University in the City of New York
+ Summary: For information on admission to a Columbia school, select the appropriate school from the drop-down menu on the right.
+]
+
+Relevant (Y/N)?y
+Result 4
+[
+ URL: http://www.tc.columbia.edu/
+ Ttile: Graduate School of Education | Teachers College Columbia ...
+ Summary: Teachers College, Columbia University, is the oldest and largest graduate school of education in the United States, and also perennially ranked among the nation's best.
+]
+
+Relevant (Y/N)?y
+Result 5
+[
+ URL: http://www.ccis.edu/
+ Ttile: Columbia College: On Campus & Online - Associate, Bachelor ...
+ Summary: Columbia College Columbia College, providing adult education, distance learning, online degrees and education at more than 30 campuses across the country. Get an ...
+]
+
+Relevant (Y/N)?y
+Result 6
+[
+ URL: http://www.ccis.edu/nationwide/main.asp?syracuse
+ Ttile: Columbia College New York - Hancock Field Syracuse
+ Summary: Looking for a convenient New York college degree program? Columbia College New York at Hancock Field in Syracuse offers affordable higher education specifically ...
+]
+
+Relevant (Y/N)?y
+Result 7
+[
+ URL: http://www.colum.edu/
+ Ttile: Columbia College Chicago
+ Summary: When you attend Columbia College Chicago, your home is one of the most active, vibrant, forward-thinking cities in the world.
+]
+
+Relevant (Y/N)?y
+Result 8
+[
+ URL: http://ce.columbia.edu/high-school/nyc
+ Ttile: Summer Programs for High School Students | New York City ...
+ Summary: Summer Programs For High School Students New York City. ... Columbia University School of Continuing Education 203 Lewisohn Hall 2970 Broadway, MC 4119 New York, ...
+]
+
+Relevant (Y/N)?y
+Result 9
+[
+ URL: http://en.wikipedia.org/wiki/Columbia_university
+ Ttile: Columbia University - Wikipedia, the free encyclopedia
+ Summary: Columbia University in the City of New York, or simply Columbia University, is an American private Ivy League research university located in the ...
+]
+
+Relevant (Y/N)?y
+Result 10
+[
+ URL: http://colleges.usnews.rankingsandreviews.com/best-colleges/columbia-university-2707
+ Ttile: Columbia University | Best College | US News
+ Summary: Is Columbia University the best college for you? Find out at US News. See if Columbia University is ranked and get info on admission, tuition, student life, and more.
+]
+
+Relevant (Y/N)?y
+========================
+Feedback Summary
+Query: columbia college york
+Precision: 1.0
+Target precision reached. Done.
+
