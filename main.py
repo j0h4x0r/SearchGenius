@@ -10,8 +10,6 @@ import math
 rootURL = 'https://api.datamarket.azure.com/Bing/Search/v1/Web'
 # To be substituted
 accKey = 'gQ+gama5GAfLoQmix8AKEn5Nop24Tlu34tRapNPOImI'
-# iteration times
-times = 1
 # top N documents we should do calculation on
 N = 10
 # rocchio parameters
@@ -30,13 +28,15 @@ def main():
 		print 'Illegal precision!'
 		sys.exit()
 
-	data, precision = startSearch(queryStr)
+	# iteration times
+	times = 1
+	data, precision = startSearch(queryStr, times)
 
 	while precision < target:
 		print 'Still below than the target precision of', target
 		queryStr = adjustQuery(queryStr, data)
 		times += 1
-		data, precision = startSearch(queryStr)
+		data, precision = startSearch(queryStr, times)
 	print 'Target precision reached. Done.'
 
 #calculate precison each iteration:
@@ -54,7 +54,7 @@ def str_replace(str_source,char,*words):
         str_temp=str_temp.replace(word,char)
     return str_temp	
 
-def startSearch(queryStr):
+def startSearch(queryStr, times):
 	print '========================'
 	print 'Round', times
 	print 'Query:', queryStr
@@ -123,11 +123,11 @@ def startSearch(queryStr):
 
 # Adjust query - key part
 def adjustQuery(queryStr, data):
-	qvec, tfidf, word_set = tfidf(queryStr, data)
+	qvec, tfidf, word_set = tfidfvec(queryStr, data)
 	new_queryStr = rocchio(qvec, tfidf, data, word_set, queryStr)
 	return new_queryStr
 
-def tfidf(query, data):
+def tfidfvec(query, data):
 	# extract docs form raw data
 	docs = [item['description'] for item in data]
 	# build a list of tokenized docs
@@ -155,7 +155,7 @@ def tfidf(query, data):
 		tfidf[i] = [x / nom for x in tfidf[i]]
 
 	# now let's work on the query vector
-	qwords = [word.lower() for query.split()]
+	qwords = [word.lower() for word in query.split()]
 	# tf vector
 	qvec = [qwords.count(w) for w in word_set]
 	# tf-idf vector
@@ -165,7 +165,6 @@ def tfidf(query, data):
 	qvec = [x / nom for x in qvec]
 	return qvec, tfidf, word_set
 
-#to be added...
 def rocchio(qvec, tfidf, data, word_set, old_query):
 	# record relevant & irrelevant count
 	rel_count = sum(1 for item in data if item['rel'])
@@ -178,24 +177,21 @@ def rocchio(qvec, tfidf, data, word_set, old_query):
 		else:
 			new_qvec = [q - gamma / float(irr_count) * r for q, r in zip(new_qvec, tfidf[i])]
 	# extract new query, order matters
-	qwords = [word.lower() for old_query.split()] # may need restore later
+	qwords = [word.lower() for word in old_query.split()] # may need restore later
 	# top 2 largest
-	t1 = 0 new_qvec[0] >= new_qvec[1] else 1
-	t2 = 0 if t1 == 1 else 1
-	maxv1 = new_qvec[t1]
-	maxv2 = new_qvec[t2]
-	for i in range(len(new_qvec)):
-		if new_qvec[i] > maxv1:
-			maxv2 = maxv1
-			t2 = t1
-			maxv1 = new_qvec[i]
-			t1 = i
-		elif new_qvec[i] > maxv2:
-			maxv2 = new_qvec[i]
-			t2 = i
-	qwords.append(word_set[t1])
-	if new_qvec[t2] > 0:
-		qwords.append(word_set[t2])
+	sorted_qvec = [(new_qvec[i], i) for i in range(len(new_qvec))]
+	sorted_qvec.sort(reverse = True)
+	# number of words we can augment each time
+	quota = 2
+	for vec_val, index in sorted_qvec:
+		if quota <= 0:
+			break
+		elif word_set[index] not in qwords:
+			# if negative, ignore
+			if vec_val <= 0:
+				break
+			qwords.append(word_set[index])
+			quota -= 1
 	qwords.sort(key = lambda w: new_qvec[word_set.index(w)], reverse = True)
 	queryStr = ' '.join(qwords)
 
