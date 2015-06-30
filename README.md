@@ -28,7 +28,7 @@ An information retrieval system that exploits user-provided relevance feedback t
 
 ### To run the code
 
-```sehll
+```shell
 python main.py
 ```
 
@@ -82,7 +82,7 @@ rocchio(qvec, tfidf, data, word_set, old_query)
 
 The system applied Rocchio algorithm for relevance feedback process [Relevance feedback and query expansion](http://nlp.stanford.edu/IR-book/pdf/09expand.pdf).
 
-The rocchio() function takes in five parameters as stated above
+The rocchio() function takes in five parameters as stated above, and
 
 - old_query was converted into df-vector
 - for each element of old_query, increment it with corresponding tfidf[] if it was marked as relevant.
