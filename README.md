@@ -11,9 +11,8 @@ An information retrieval system that exploits user-provided relevance feedback t
 
 ### To install these libraries
 
+```shell
 # set python library path
-
-```
 :~$ mkdir lib
 :~$ export PYTHONPATH=$PYTHONPATH:~/lib
 # install python packages
@@ -29,7 +28,9 @@ An information retrieval system that exploits user-provided relevance feedback t
 
 ### To run the code
 
+```sehll
 python main.py
+```
 
 ## System Design
 
